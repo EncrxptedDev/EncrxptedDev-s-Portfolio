@@ -1,103 +1,143 @@
 const PORTFOLIO_DATA = [
     {
         id: 1,
-        title: "Tool Based Gun System",
+        title: "Basic Tool Gun System",
         category: "systems",
-        description: "Advanced gun system with OTS, togglable right/left shoulder camera positions, and full configurations (recoil, ammo, damage, range, fire rate, spread).",
+        description: "A clean, tool-based gun system with configurable damage, fire rate, and ammo — a solid foundation for any combat game.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/bc6bfb17c7229272d1624a4072b7f5a1.mp4",
-        link: "https://gyazo.com/bc6bfb17c7229272d1624a4072b7f5a1",
-        techStack: ["Combat", "Camera", "Weapons"]
+        mediaUrl: "https://i.gyazo.com/835d1152c99ef8f96e7ec0f808e236ae.mp4",
+        link: "https://gyazo.com/835d1152c99ef8f96e7ec0f808e236ae",
+        techStack: ["Combat", "Weapons", "Tools"]
     },
     {
         id: 2,
-        title: "View Model Gun System",
+        title: "Advanced Tool Gun System",
         category: "systems",
-        description: "First-person view model weapon system featuring the same advanced configurations inside a highly optimized view model framework.",
+        description: "Advanced gun system with OTS, togglable right/left shoulder camera positions, and full configurations (recoil, ammo, damage, range, fire rate, spread).",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/5997f0c471b33124e489a0cca1022037.mp4",
-        link: "https://gyazo.com/5997f0c471b33124e489a0cca1022037",
-        techStack: ["FPS", "ViewModels", "Combat"]
+        mediaUrl: "https://i.gyazo.com/d5be2f25d84e6e0f54565ad8213a72b5.mp4",
+        link: "https://gyazo.com/d5be2f25d84e6e0f54565ad8213a72b5",
+        techStack: ["Combat", "Camera", "Weapons"]
     },
     {
         id: 3,
-        title: "Cross-Platform Keybinds",
-        category: "ui",
-        description: "Universal keybind controller supporting Mobile, Console, and PC inputs for in-game actions like push, block, sprint, and throw.",
+        title: "View-Model Gun System",
+        category: "systems",
+        description: "First-person view model weapon system featuring the same advanced configurations inside a highly optimized view model framework.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/17a2dff73e71a11ce46dce2b251dd85f.mp4",
-        link: "https://gyazo.com/17a2dff73e71a11ce46dce2b251dd85f",
-        techStack: ["InputService", "Cross-Platform", "UI"]
+        mediaUrl: "https://i.gyazo.com/053ab5d3659155ee348acb583a289805.mp4",
+        link: "https://gyazo.com/053ab5d3659155ee348acb583a289805",
+        techStack: ["FPS", "ViewModels", "Combat"]
     },
     {
         id: 4,
-        title: "Soccer Ball Physics",
-        category: "minigames",
-        description: "Custom physics system for smooth soccer ball dribbling and a kick power meter mechanic.",
-        mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/af7e1dfd189b005a5379ec0a471e9ed1.mp4",
-        link: "https://gyazo.com/af7e1dfd189b005a5379ec0a471e9ed1",
-        techStack: ["Physics", "Sports", "Mechanics"]
-    },
-    {
-        id: 5,
         title: "Melee Combat System",
         category: "systems",
         description: "Tool-based melee combat featuring perfectly synced combo animations alongside accurate hit detection and damage sync.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/1bca8ac9851325223698bd453d409f29.mp4",
-        link: "https://gyazo.com/1bca8ac9851325223698bd453d409f29",
+        mediaUrl: "https://i.gyazo.com/fe0122fd622cd90cfeb57f9ff40e9165.mp4",
+        link: "https://gyazo.com/fe0122fd622cd90cfeb57f9ff40e9165",
         techStack: ["Hitboxes", "Animations", "Melee"]
     },
     {
-        id: 6,
+        id: 5,
         title: "Advanced Fishing System",
         category: "minigames",
         description: "Fisch-inspired mechanic with perfect line casting, animation syncing, fish rarities, and interactive reeling.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/d6e03d8672d5bfa6a05ddfc82e61f7c9.mp4",
-        link: "https://gyazo.com/d6e03d8672d5bfa6a05ddfc82e61f7c9",
+        mediaUrl: "https://i.gyazo.com/58ce910006c412ee389fcc6672288a1f.mp4",
+        link: "https://gyazo.com/58ce910006c412ee389fcc6672288a1f",
         techStack: ["Mechanics", "Data", "Minigame"]
     },
     {
-        id: 7,
+        id: 6,
         title: "Custom Intro Sequence",
         category: "ui",
         description: "A polished, custom intro sequence to welcome players into the game with smooth camera transitions and animated UI elements.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/439777d32729c487c6dac0ff9b87732e.mp4",
-        link: "https://gyazo.com/439777d32729c487c6dac0ff9b87732e",
+        mediaUrl: "https://i.gyazo.com/5b9c85fb028eb07f536d4ed5049e422d.mp4",
+        link: "https://gyazo.com/5b9c85fb028eb07f536d4ed5049e422d",
         techStack: ["Cinematics", "UI Design", "Tweening"]
     },
     {
+        id: 7,
+        title: "Basic Building System",
+        category: "systems",
+        description: "A grid-based building system allowing players to place, rotate, and remove structures with snap-to-grid functionality.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/16bae360e088adfae1a95cab50ef6daa.mp4",
+        link: "https://gyazo.com/16bae360e088adfae1a95cab50ef6daa",
+        techStack: ["Building", "Grid", "Placement"]
+    },
+    {
         id: 8,
+        title: "Basic Car Customization System",
+        category: "systems",
+        description: "A car customization system featuring color, decal, and part swapping with live preview and persistent data saving.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/1600a13fbfcf81c9056c829c2d2fb5fb.mp4",
+        link: "https://gyazo.com/1600a13fbfcf81c9056c829c2d2fb5fb",
+        techStack: ["Vehicles", "Customization", "DataStores"]
+    },
+    {
+        id: 9,
+        title: "Party System",
+        category: "systems",
+        description: "A full party system allowing players to group up, invite friends, and join the same server together seamlessly.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/5ff5c87a23e34c4130a7ab2079c36926.mp4",
+        link: "https://gyazo.com/5ff5c87a23e34c4130a7ab2079c36926",
+        techStack: ["Networking", "Social", "Teleportation"]
+    },
+    {
+        id: 10,
+        title: "Queue System",
+        category: "systems",
+        description: "A matchmaking queue system that groups players and teleports them to game servers when a match is ready.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/482530d90fa611d17bd12d85107627b5.mp4",
+        link: "https://gyazo.com/482530d90fa611d17bd12d85107627b5",
+        techStack: ["Matchmaking", "Teleportation", "Networking"]
+    },
+    {
+        id: 11,
+        title: "Character Selection System",
+        category: "ui",
+        description: "A character selection screen with animated previews, smooth transitions, and persistent character data across sessions.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/e76c30741ad9f12491e256e1dcfda17c.mp4",
+        link: "https://gyazo.com/e76c30741ad9f12491e256e1dcfda17c",
+        techStack: ["UI Design", "Characters", "DataStores"]
+    },
+    {
+        id: 12,
+        title: "Murder Mystery System",
+        category: "minigames",
+        description: "A full murder mystery game mode with role assignment, detective mechanics, and complete round management.",
+        mediaType: "video",
+        mediaUrl: "https://i.gyazo.com/71936cabac651c6e51810196bdcc2d78.mp4",
+        link: "https://gyazo.com/71936cabac651c6e51810196bdcc2d78",
+        techStack: ["Gamemodes", "Role Assignment", "Round Management"]
+    },
+    {
+        id: 13,
         title: "Advanced ATM & Banking",
         category: "systems",
         description: "Comprehensive economy system featuring character slot data, bank/cash balances, and full deposit/withdrawal/transfer functions.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/8789752bd85887646e1d2362ff146f91.mp4",
-        link: "https://gyazo.com/8789752bd85887646e1d2362ff146f91",
+        mediaUrl: "https://i.gyazo.com/2fd09978a9d48b953de8e20ada098289.mp4",
+        link: "https://gyazo.com/2fd09978a9d48b953de8e20ada098289",
         techStack: ["DataStores", "Economy", "Security"]
     },
     {
-        id: 9,
-        title: "Multi-Camera Display",
+        id: 14,
+        title: "Multi-Camera Surveillance System",
         category: "systems",
         description: "Security or cinematic camera system offering sliding track mounts, player following, and part whitelisting for rendering.",
         mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/433e7a7d2c6d9fe16098fe80c8878bcd.mp4",
-        link: "https://gyazo.com/433e7a7d2c6d9fe16098fe80c8878bcd",
+        mediaUrl: "https://i.gyazo.com/0223e5f67a370c4a1d642b5b21a8396a.mp4",
+        link: "https://gyazo.com/0223e5f67a370c4a1d642b5b21a8396a",
         techStack: ["ViewportFrames", "Camera", "Render"]
-    },
-    {
-        id: 11,
-        title: "Interactive Spin Wheel",
-        category: "ui",
-        description: "Smooth, animated spin wheel optimized for daily rewards or simulator-style game mechanics with randomized probability weighting.",
-        mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/8edda0a7e97aeb6a56afc66024710260.mp4",
-        link: "https://gyazo.com/8edda0a7e97aeb6a56afc66024710260",
-        techStack: ["UI Design", "TweenService", "Rewards"]
     }
 ];
 
