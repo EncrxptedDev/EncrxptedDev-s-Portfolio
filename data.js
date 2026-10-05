@@ -1,7 +1,7 @@
 const PORTFOLIO_DATA = [
     {
         id: 1,
-        title: "Basic Gun Framework",
+        title: "Basic Gun System",
         category: "systems",
         description: "A clean, tool-based gun framework with configurable damage, fire rate, and ammo — a solid foundation for any combat game.",
         mediaType: "video",
@@ -11,7 +11,7 @@ const PORTFOLIO_DATA = [
     },
     {
         id: 2,
-        title: "Advanced Gun Framework",
+        title: "Advanced Gun System",
         category: "systems",
         description: "Advanced tool based gun framework with OTS, togglable right/left shoulder camera positions, and full configurations (recoil, ammo, damage, range, fire rate, spread).",
         mediaType: "video",
