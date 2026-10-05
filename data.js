@@ -1,9 +1,9 @@
 const PORTFOLIO_DATA = [
     {
         id: 1,
-        title: "Basic Tool Gun System",
+        title: "Basic Gun Framework",
         category: "systems",
-        description: "A clean, tool-based gun system with configurable damage, fire rate, and ammo — a solid foundation for any combat game.",
+        description: "A clean, tool-based gun framework with configurable damage, fire rate, and ammo — a solid foundation for any combat game.",
         mediaType: "video",
         mediaUrl: "https://i.gyazo.com/835d1152c99ef8f96e7ec0f808e236ae.mp4",
         link: "https://gyazo.com/835d1152c99ef8f96e7ec0f808e236ae",
@@ -11,9 +11,9 @@ const PORTFOLIO_DATA = [
     },
     {
         id: 2,
-        title: "Advanced Tool Gun System",
+        title: "Advanced Gun Framework",
         category: "systems",
-        description: "Advanced gun system with OTS, togglable right/left shoulder camera positions, and full configurations (recoil, ammo, damage, range, fire rate, spread).",
+        description: "Advanced tool based gun framework with OTS, togglable right/left shoulder camera positions, and full configurations (recoil, ammo, damage, range, fire rate, spread).",
         mediaType: "video",
         mediaUrl: "https://i.gyazo.com/d5be2f25d84e6e0f54565ad8213a72b5.mp4",
         link: "https://gyazo.com/d5be2f25d84e6e0f54565ad8213a72b5",
@@ -21,7 +21,7 @@ const PORTFOLIO_DATA = [
     },
     {
         id: 3,
-        title: "View-Model Gun System",
+        title: "View-Model Gun Framework",
         category: "systems",
         description: "First-person view model weapon system featuring the same advanced configurations inside a highly optimized view model framework.",
         mediaType: "video",
