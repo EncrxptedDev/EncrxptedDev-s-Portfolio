@@ -71,16 +71,6 @@ const PORTFOLIO_DATA = [
     },
     {
         id: 8,
-        title: "Basic Car Customization System",
-        category: "systems",
-        description: "A car customization system featuring color, decal, and part swapping with live preview and persistent data saving.",
-        mediaType: "video",
-        mediaUrl: "https://i.gyazo.com/1600a13fbfcf81c9056c829c2d2fb5fb.mp4",
-        link: "https://gyazo.com/1600a13fbfcf81c9056c829c2d2fb5fb",
-        techStack: ["Vehicles", "Customization", "DataStores"]
-    },
-    {
-        id: 9,
         title: "Party System",
         category: "systems",
         description: "A full party system allowing players to group up, invite friends, and join the same server together seamlessly.",
@@ -90,7 +80,7 @@ const PORTFOLIO_DATA = [
         techStack: ["Networking", "Social", "Teleportation"]
     },
     {
-        id: 10,
+        id: 9,
         title: "Queue System",
         category: "systems",
         description: "A matchmaking queue system that groups players and teleports them to game servers when a match is ready.",
@@ -100,7 +90,7 @@ const PORTFOLIO_DATA = [
         techStack: ["Matchmaking", "Teleportation", "Networking"]
     },
     {
-        id: 11,
+        id: 10,
         title: "Character Selection System",
         category: "ui",
         description: "A character selection screen with animated previews, smooth transitions, and persistent character data across sessions.",
@@ -110,7 +100,7 @@ const PORTFOLIO_DATA = [
         techStack: ["UI Design", "Characters", "DataStores"]
     },
     {
-        id: 12,
+        id: 11,
         title: "Murder Mystery System",
         category: "minigames",
         description: "A full murder mystery game mode with role assignment, detective mechanics, and complete round management.",
@@ -120,7 +110,7 @@ const PORTFOLIO_DATA = [
         techStack: ["Gamemodes", "Role Assignment", "Round Management"]
     },
     {
-        id: 13,
+        id: 12,
         title: "Advanced ATM & Banking",
         category: "systems",
         description: "Comprehensive economy system featuring character slot data, bank/cash balances, and full deposit/withdrawal/transfer functions.",
@@ -130,7 +120,7 @@ const PORTFOLIO_DATA = [
         techStack: ["DataStores", "Economy", "Security"]
     },
     {
-        id: 14,
+        id: 13,
         title: "Multi-Camera Surveillance System",
         category: "systems",
         description: "Security or cinematic camera system offering sliding track mounts, player following, and part whitelisting for rendering.",
